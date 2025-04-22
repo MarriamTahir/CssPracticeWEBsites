@@ -1,5 +1,6 @@
 CSS Practice Websites ✨
 By Marriam Tahir
+
 Welcome to my CSS Practice Projects repository! Here, I build and experiment with different websites to improve my front-end development skills, focusing on HTML & CSS.
 
 📌 Projects Included
@@ -19,11 +20,7 @@ A responsive coffee shop website built with HTML & CSS.
 🛠️ Technologies Used
 HTML5 (Structure)
 
-CSS3 (Styling & Animations)
-
-Flexbox & Grid (Layouts)
-
-Git & GitHub (Version Control)
+CSS3 ( Float Property + Media Queries)
 
 🚀 How to Run Locally
 Clone the repository:
