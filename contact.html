@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/4dfc826f7e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Coffee Website</title>
+</head>
+
+<body>
+  <nav class="navbar bg-dark">
+    <div class="container">
+      <h1 class="logo lg-heading text-light">OBS Cafe</h1>
+      <ul class="nav-items">
+        <li class="nav-item"><a href="./index.html">Home</a></li>
+        <li class="nav-item"><a href="./about.html">About</a></li>
+        <li class="nav-item"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="contact-form">
+    <div class="container">
+      <div class="form-wrapper">
+        
+        <!-- Left Side: Address Section -->
+        <div class="company-address">
+          <div class="address-group">
+            <i class="fa-solid fa-location-dot fa-2x"></i>
+            <h2 class="text-gray md-heading">Location</h2>
+            <p>123 Coffee Street, Mocha Town</p>
+          </div>
+          <div class="address-group">
+            <i class="fa-solid fa-envelope fa-2x"></i>
+            <h2 class="text-gray md-heading">Email</h2>
+            <p>contact@obscafe.com</p>
+          </div>
+          <div class="address-group">
+            <i class="fa-solid fa-phone fa-2x"></i>
+            <h2 class="text-gray md-heading">Call</h2>
+            <p>+123 456 7890</p>
+          </div>
+          <!-- <img src="./images/contact.jpg" alt="coffee shop cafe" /> -->
+        </div>
+
+        <!-- Right Side: Contact Form -->
+        <form class="form" action="#">
+          <h2>Send us a message</h2>
+
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+          </div>
+
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email" required />
+          </div>
+
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+</body>
+</html>
